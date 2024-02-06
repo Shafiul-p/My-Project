@@ -5,7 +5,7 @@ int main(){
 printf("Do you want to solve your math? \nyes = type 1 and no = type 2\n");
 scanf("%d",&a);
 b=a;
-(b==1)? printf("What kind of math can you do?\n prass for + = 1, - = 2, * = 3, / = 4, no = 0\n"):printf("Thank you");
+(b==1)? printf("What kind of math can you do?\n prass for + = 1, - = 2, * = 3, / = 4, no = 0\n"):printf("You can not inter in next step");
     scanf("%d",&c);
     (f=c);
 if (f==1){
@@ -38,6 +38,8 @@ printf("inter your second no: ");
 scanf("%d",&e);
 sum=d-e;
 printf("Your result is: %d",sum);}
+    else
+    printf ("wrong press\a");
 return 0;
  
  
