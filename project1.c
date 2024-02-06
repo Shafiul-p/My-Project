@@ -5,16 +5,11 @@ int main(){
 printf("Do you want to solve your math? \nyes = type 1 and no = type 2\n");
 scanf("%d",&a);
 b=a;
-if (b==1){
-    printf("What kind of math can you do?\n prass for + = 1, - = 2, * = 3, / = 4, no = 0\n");
+(b==1)? printf("What kind of math can you do?\n prass for + = 1, - = 2, * = 3, / = 4, no = 0\n"):printf("Thank you");
     scanf("%d",&c);
-    f=c;}
-    else {
-    printf("Thank you");
- }
+    (f=c);
 if (f==1){
-
-printf("inter your first no: ");
+ printf("inter your first no: ");
 scanf("%d",&d);
 printf("inter your second no: ");
 scanf("%d",&e);
@@ -43,8 +38,7 @@ printf("inter your second no: ");
 scanf("%d",&e);
 sum=d-e;
 printf("Your result is: %d",sum);}
-
-
+return 0;
  
  
 }
